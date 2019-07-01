@@ -1,0 +1,23 @@
+.main{
+  background-color: #E6E7E7;
+  padding-top: 30px;
+}
+.video{
+	/*background-color: red;	*/
+	display: flex;
+	flex-direction: column;
+	padding-left: 5%;
+}
+.video iframe{
+	align-items: center;
+}
+.video>p{
+	text-align: left;
+	font-family: var(--font);
+	font-size: 19px;
+}
+.intro{ 
+	text-align: justify;
+	font-size: 19px;
+	font-family: var(--font);
+}

@@ -1,0 +1,74 @@
+.header{
+  display: block;
+  /*overflow: hidden; */  
+	height: 53px;
+  padding-top: 5px;
+	background-color: white;
+	position: fixed;
+	z-index: 999;
+  box-shadow:0px 1px black;
+}
+.img-background{
+  background-image: url("https://res.cloudinary.com/buituan/image/upload/v1552313631/Img_Aimefotos/background.jpg");
+  background-size: 100% 120%;
+  background-repeat: no-repeat;  
+  height: 500px;
+  background-attachment: fixed;
+  padding-top: 250px;
+}
+.img-background>p{
+  font-family: Merriweather, serif;
+  font-size: 60px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+.logo>img{
+  width: 70px;
+  height: 45px;
+}
+.logo>p{
+  font-size: 190%;
+  font-family: Merriweather, serif;
+  font-weight: bolder;
+  font-style: italic;
+  color: #74A4CB;
+}
+.menuDesk{
+  align-items: center;justify-content: center; 
+  background-color: white; font-size: 19px;
+  font-family: Merriweather, serif;
+}
+.menuDesk>a{
+  color: #6A6A6A;
+}
+#menuMob{
+  height: 30%;
+  margin-top: 5px;
+  /*float: right;*/
+}
+.drop{
+  display: flex;
+  flex-direction: column;
+}
+#dropMenu{
+  display: none;
+  /*float: right;*/
+  background-color: white;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+}
+#dropMenu>a{
+  display: block;
+  color: #6A6A6A;
+  margin-bottom: 10px;
+  /*text-decoration: none;*/
+}
+#dropMenu>a:nth-child(5){
+  margin-bottom: 0px;
+}
